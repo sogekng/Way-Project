@@ -3,6 +3,7 @@ body{
     margin: auto;
     background-color: #e4dcc0;
     font-family: 'Space Grotesk', sans-serif;
+    color: #1b2431;
 }
 
 .header{
@@ -10,8 +11,8 @@ body{
     height: 5%;
     width: 100%;
     margin-bottom: 2vh;
-    border-bottom: solid 0.5vh #1b2431;
-    background-color: transparent;
+    border-bottom: solid 0.4vh #1b2431;
+    background-color: #016795;
 }
 
 .container{
@@ -40,7 +41,7 @@ body{
 }
 .bloco1 a{
     text-decoration: none;
-    color: black;
+    color: #e4dcc0;
 }
 
 .bloco2{
@@ -48,7 +49,7 @@ body{
 }
 .bloco2 a{
     text-decoration: none;
-    color: black;
+    color: #e4dcc0;
 }
 
 .bloco3{
@@ -56,7 +57,7 @@ body{
 }
 .bloco3 a{
     text-decoration: none;
-    color: black;
+    color: #e4dcc0;
 }
 
 .bloco4{
@@ -64,7 +65,7 @@ body{
 }
 .bloco4 a{
     text-decoration: none;
-    color: black;
+    color: #e4dcc0;
 }
 
 .bloco5{
@@ -136,6 +137,25 @@ body{
     justify-content: center;
 }
 
+.text_content{
+    position: relative;
+    height: 100vh;
+    width: 25vw;
+    bottom: 30vh;
+    margin-bottom: 20vh;
+}
+
+.text_content h1{
+    margin: auto;
+}
+
+.text_content h1::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
 .img_content:hover{
     cursor: pointer;
     animation: viewer 7s infinite;
@@ -156,25 +176,6 @@ body{
     }
 }
 
-.img_content:hover p{
-    animation: opac 0.4s both;
-}
-
-@keyframes opac {
-    0% {
-        opacity: 0%;
-	}
-    50% {
-        opacity: 50%;
-	}
-    70% {
-        opacity: 70%;
-	}
-	100% {
-        opacity: 100%;
-	}
-}
-
 .img_content img{
     height: 100%;
     width: 100%;
@@ -185,8 +186,8 @@ body{
     margin-top: 45vh;
     text-align: center;
     font-size: 2vh;
-    opacity: 0%;
 }
+
 
 .navigator{
     position: absolute;
@@ -201,12 +202,22 @@ body{
     width: 100%;
     border-top: solid 0.5vh #1b2431;
     display: flex;
+    background-color: #016795;
 }
 
 .nav_content:hover {
     cursor: pointer;
 }
-  
+
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
 .switch {
 visibility: hidden;
 position: absolute;

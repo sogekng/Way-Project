@@ -2,7 +2,6 @@ import logo from './Logo.svg';
 import './App.css';
 
 
-
 const button = {
   butt: <div className="switch__container">
               <input id="switch-shadow" class="switch switch--shadow" type="checkbox" />
@@ -13,9 +12,21 @@ const button = {
 const contents = {
   text_one: <p>{'Programação'}</p>,
   text_two: <p>{'Design'}</p>,
+  text_three: <h1>Lorem alguma coisa texto texto</h1>,
   img_one: <img src='../contents/imgs/img001.png' alt='bruh'></img>,
   img_two: <img src='../contents/imgs/img002.png' alt='bruh'></img>
 }
+
+function typeWriter(elemento){
+  const textoArray = elemento.innerHTML.split('');
+  elemento.innerHTML = '';
+  textoArray.forEach((letra, i) => {
+    setTimeout(() => elemento.innerHTML += letra, 95 * i)
+  });
+}
+
+
+typeWriter(document.querySelector('.text_content h1'))
 
 function App() {
   return (
@@ -30,9 +41,13 @@ function App() {
           <div className='bloco5'>{button.butt}</div>
         </div>
       </header>
+      
       <div className='content'>
         <div className='img_content'>
             {contents.text_two}
+        </div>
+        <div className='text_content'>
+          {contents.text_three}
         </div>
         <div className='img_content'>
             {contents.text_one}
