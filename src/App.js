@@ -17,17 +17,6 @@ const contents = {
   img_two: <img src='../contents/imgs/img002.png' alt='bruh'></img>
 }
 
-function typeWriter(elemento){
-  const textoArray = elemento.innerHTML.split('');
-  elemento.innerHTML = '';
-  textoArray.forEach((letra, i) => {
-    setTimeout(() => elemento.innerHTML += letra, 95 * i)
-  });
-}
-
-
-typeWriter(document.querySelector('.text_content h1'))
-
 function App() {
   return (
     <>
