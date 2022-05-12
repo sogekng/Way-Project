@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Typing from 'react-typing-animation';
 
 
 const contents = {
@@ -9,21 +11,10 @@ const contents = {
           </div>,
   text_one: <p>{'Programação'}</p>,
   text_two: <p>{'Design'}</p>,
-  text_three: <h1>Lorem alguma coisa texto texto</h1>,
+  text_three: <Typing speed={70}><h1>Lorem alguma coisa texto texto<Typing.Speed ms={200} /></h1></Typing>,
   img_one: <img src='../contents/imgs/img001.png' alt='bruh'></img>,
-  img_two: <img src='../contents/imgs/img002.png' alt='bruh'></img>,
-  titulo_page: document.querySelector('.text_content h1')
+  img_two: <img src='../contents/imgs/img002.png' alt='bruh'></img>
 }
-
-function typeWriter(elemento){
-  const textoArray = elemento.innerHTML.split('');
-  elemento.innerHTML = '';
-  textoArray.forEach((letra, i) => {
-    setTimeout(() => elemento.innerHTML += letra, 95 * i)
-  });
-}
-
-typeWriter(contents.titulo_page)
 
 function App() {
   return (
@@ -40,12 +31,12 @@ function App() {
       </header>
       
       <div className='content'>
-        <div className='img_content'>
+        <div className='img_content'> 
             {contents.text_two}
         </div>
-        <div className='text_content'>
-          {contents.text_three}
-        </div>
+          <div className='text_content'>
+              {contents.text_three}
+          </div>
         <div className='img_content'>
             {contents.text_one}
         </div>
