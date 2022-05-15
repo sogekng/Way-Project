@@ -26,10 +26,10 @@ const DarkTheme = () => {
             <header className='header'>
                   <div className='container'>
                   <div className='bloco0'><a href='#logo'><img src={logo} alt="logo" /></a></div>
-                  <div className='bloco1'>HOME</div>
-                  <div className='bloco2'>SOBRE NÓS</div>
-                  <div className='bloco3'>O QUE SOMOS</div>
-                  <div className='bloco4'>O QUE OFERECEMOS</div>
+                  <div className='bloco1'><a href='#home'>HOME</a></div>
+                  <div className='bloco2'><a href='#sobre'>SOBRE NÓS</a></div>
+                  <div className='bloco3'><a href='#oquesomos'>O QUE SOMOS</a></div>
+                  <div className='bloco4'><a href='#oqueoferecemos'>O QUE OFERECEMOS</a></div>
                   <div className='bloco5'>
                     <div className="switch__container">
                       <input id="switch-shadow" class="switch switch--shadow" type="checkbox" onClick={toggleTheme}/>

@@ -62,7 +62,6 @@ body{
     height: 5%;
     width: 100%;
     margin-bottom: 2vh;
-    border-bottom: solid 0.4vh #1b2431;
     background-color: #016795;
 }
 
@@ -254,7 +253,6 @@ body{
     height: 15vh;
     width: 100%;
     margin-top: 130vh;
-    border-top: solid 0.5vh #1b2431;
     background-color: #016795;
 }
 
@@ -336,7 +334,7 @@ transition: all 0.4s;
 }
 .switch--shadow:checked + label:after {
     background-color: #1b2431;
-    transform: translateX(30px);
+    transform: translateX(27px);
 }
 
 ::-webkit-scrollbar {
