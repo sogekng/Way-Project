@@ -1,9 +1,57 @@
-
 body{
-    margin: auto;
+    width: 100%;
+    height: 100vh;
     background-color: #e4dcc0;
     font-family: 'Space Grotesk', sans-serif;
     color: #1b2431;
+    margin: 0;
+}
+
+.carousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.carouselInner{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.carouselInner .left{
+    flex: 5%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    color: aliceblue;
+    opacity: 0%;
+}
+
+.carouselInner .center{
+    flex: 50%;
+    height: 100%;
+}
+
+.carouselInner .right{
+    flex: 5%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    color: aliceblue;
+    opacity: 0%;
+}
+
+
+.left:hover{
+    opacity: 100%;
+}
+
+.right:hover{
+    opacity: 100%;
 }
 
 .header{
@@ -34,6 +82,10 @@ body{
     width: 100%;
     height: 100%;
     transform: scale(0.7);
+}
+
+.bloco0 a{
+    text-decoration: none;
 }
 
 .bloco1{
@@ -134,10 +186,8 @@ body{
 .img_content{
     position: relative;
     height: 100%;
-    width: 15%;
+    width: 15vw;
     margin: auto;
-    border: solid 0.5vh #1b2431;
-    justify-content: center;
 }
 
 .text_content{
@@ -154,7 +204,6 @@ body{
 
 .img_content:hover{
     cursor: pointer;
-    animation: viewer 7s infinite;
 }
 
 .img_content p{
@@ -195,22 +244,25 @@ body{
 
 .navigator{
     position: absolute;
-    height: 30%;
+    height: 15vh;
     width: 100%;
     margin-top: 130vh;
+    border-top: solid 0.5vh #1b2431;
+    background-color: #016795;
 }
 
 .nav_content {
     position: relative;
     height: 100%;
     width: 100%;
-    border-top: solid 0.5vh #1b2431;
     display: flex;
-    background-color: #016795;
+    justify-content: center;
 }
 
-.nav_content:hover {
-    cursor: pointer;
+.nav_content img{
+    max-width: 100%;
+    max-height: 100%;
+    transform: scale(0.4);
 }
 
 @keyframes pisca{
@@ -220,6 +272,14 @@ body{
     50%{
         opacity: 0;
     }
+}
+
+
+.slider{
+    position: absolute;
+    margin-top: 30vh;
+    height: 100%;
+    width: 100%;
 }
 
 .switch {
