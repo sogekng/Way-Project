@@ -5,7 +5,7 @@ import Carousel from './Carousel';
 const contents = {
     text_one: <p>{'Programação'}</p>,
     text_two: <p>{'Design'}</p>,
-    text_three: <Typing speed={70}><h1>Lorem alguma coisa texto texto texto<Typing.Speed ms={400} /></h1></Typing>,
+    text_three: <Typing speed={80}><h1>texto texto texto texto texto texto<Typing.Speed ms={800} /></h1></Typing>,
     img_one: <img src='../contents/imgs/img001.png' alt='bruh'></img>,
     img_two: <img src='../contents/imgs/img002.png' alt='bruh'></img>
   }

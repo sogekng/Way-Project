@@ -1,17 +1,18 @@
 import './App.css';
 import React from 'react';
-import Header from './components/Header';
 import Content from './components/Content'
 import Navigator from './components/Navigator'
+import DarkTheme from './components/DarkTheme';
 
 function App() {
+  
   return (
     <>
-    <Header />
+    <DarkTheme />
       <Content />
     <Navigator />
-    </> 
-  );
+    </>
+    );
 }
 
 export default App;
