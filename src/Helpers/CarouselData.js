@@ -5,7 +5,7 @@ import Photo4 from '../Images/photo4.jpeg'}*/
 
 
 const Photo1 = '#016795'
-const Photo2 = '#1b2431'
+const Photo2 = '#1c0195'
 const Photo3 = '#1e488f'
 const Photo4 = '#ff073a'
 
