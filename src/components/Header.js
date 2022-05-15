@@ -14,7 +14,7 @@ const Header = () => {
         <header className='header'>
             <div className='container'>
             <div className='bloco0'><a href='#logo'><img src={logo} alt="logo" /></a></div>
-            <div className='bloco1'><a href='#home'>HOME</a></div>
+            <div className='bloco1'><a href='#home'>HOME<div className="mostrar">mostrar este texto</div></a></div>
             <div className='bloco2'><a href='#sobre'>SOBRE NÓS</a></div>
             <div className='bloco3'><a href='#o_que_somos'>O QUE SOMOS</a></div>
             <div className='bloco4'><a href='#o_que_oferecemos'>O QUE OFERECEMOS</a></div>
