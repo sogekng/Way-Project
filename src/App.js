@@ -1,4 +1,3 @@
-import './App.css';
 import React from 'react';
 import Content from './components/Content'
 import Navigator from './components/Navigator'
