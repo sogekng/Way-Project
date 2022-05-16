@@ -34,24 +34,17 @@ background: ${({ theme }) => theme.scrollbarThumb};
 background: ${({ theme }) => theme.scrollbarThumbHover}; 
 }
 
-.bloco1 a{
-  color: ${({ theme }) => theme.textMenu};
+.switch--shadow + label:before {
+background-color: ${({ theme }) => theme.switchShadowLabelBefore};
 }
-
-.bloco2 a{
-  color: ${({ theme }) => theme.textMenu};
+.switch--shadow + label:after {
+background-color: ${({ theme }) => theme.switchShadowLabelAfter};
 }
-
-.bloco3 a{
-  color: ${({ theme }) => theme.textMenu};
+.switch--shadow:checked + label:before {
+    background-color: ${({ theme }) => theme.switchShadowCheckedLabelBefore};
 }
-
-.bloco4 a{
-  color: ${({ theme }) => theme.textMenu};
-}
-
-.bloco5 a{
-  color: {}
+.switch--shadow:checked + label:after {
+    background-color: ${({ theme }) => theme.switchShadowCheckedLabelAfter};
 }
 
 `;

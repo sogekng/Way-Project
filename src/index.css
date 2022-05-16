@@ -251,21 +251,15 @@ content: "";
 }
 .switch--shadow + label:before {
 right: 1px;
-background-color: #1b2431;
 border-radius: 60px;
 }
 .switch--shadow + label:after {
 width: 25px;
-background-color: #e4dcc0;
 border-radius: 100%;
 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 transition: all 0.4s;
 }
-.switch--shadow:checked + label:before {
-    background-color: #e4dcc0;
-}
 .switch--shadow:checked + label:after {
-    background-color: #1b2431;
     transform: translateX(26px);
 }
 

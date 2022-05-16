@@ -7,7 +7,11 @@ export const lightTheme = {
     scrollbarTrack: 'transparent',
     scrollbarThumb: '#016795',
     scrollbarThumbHover: '#FF073A',
-    textMenu: '#1b2431'
+    textMenu: '#1b2431',
+    switchShadowLabelBefore: '#1b2431',
+    switchShadowLabelAfter: '#e4dcc0',
+    switchShadowCheckedLabelBefore: '#1b2431',
+    switchShadowCheckedLabelAfter: '#e4dcc0'
 };
   
   export const darkTheme = {
@@ -19,5 +23,9 @@ export const lightTheme = {
     scrollbarTrack: 'transparent',
     scrollbarThumb: '#1e488f',
     scrollbarThumbHover: '#FF073A',
-    textMenu: '#e4dcc0'
+    textMenu: '#e4dcc0',
+    switchShadowLabelBefore: '#e4dcc0',
+    switchShadowLabelAfter: '#1b2431',
+    switchShadowCheckedLabelBefore: '#e4dcc0',
+    switchShadowCheckedLabelAfter: '#1b2431'
 };
