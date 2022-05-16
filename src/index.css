@@ -160,8 +160,9 @@ mark {
     background-color:#ff073a;
 }
 
-.header img svg defs style {
-    fill: red;
+
+#root > header > img{
+    fill: #718f1e;
 }
 
 @keyframes viewer {

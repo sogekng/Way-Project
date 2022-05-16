@@ -24,7 +24,7 @@ const Header = () => {
         <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
             <GlobalTheme />
             <header className='header'>
-              <img src={logo} alt="logo"/>
+              <img className='logo' src={logo} alt="logo"/>
               <div><strong>HOME</strong></div>
               <div><strong>SERVIÇOS</strong></div>
               <div><strong>SOBRE NÓS</strong></div>
