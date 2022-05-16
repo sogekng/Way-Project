@@ -6,7 +6,7 @@
 body{
     width: 100%;
     height: 100vh;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Futura BK BT', sans-serif;
 }
 
 @media screen and (max-width: 768px){
@@ -59,10 +59,15 @@ body{
 
 .header{
     position: absolute;
-    height: 5%;
+    height: 10%;
     width: 100%;
-    margin-bottom: 2vh;
-    background-color: #016795;
+    display: flex;
+    padding-left: 20vw;
+    margin: 0;
+}
+
+.header img{
+    fill:#016795;
 }
 
 .container{
@@ -74,86 +79,19 @@ body{
     font-size: 3vh;
 }
 
-.bloco0{
-    height: 100%;
-    margin: auto;
-    margin-right: 22vw;
+.header div{
+    position: relative;
+    margin: auto 1vw;
 }
 
-.bloco0 img{
-    width: 100%;
+.header img{
+    position: relative;
     height: 100%;
+    width: 25%;
+    margin-top: auto;
     transform: scale(0.7);
 }
 
-.bloco0 a{
-    text-decoration: none;
-}
-
-.bloco1{
-    margin: auto 2vw;
-}
-.bloco1 a{
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.mostrar{
-    display: none;
-}
-
-
-.bloco1{
-    cursor: pointer;
-}
-
-.bloco1:hover #mostrar{
-    display:block;
-}
-
-.bloco2{
-    margin: auto 2vw;
-}
-.bloco2 a{
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.bloco3{
-    margin: auto 2vw;
-}
-.bloco3 a{
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.bloco4{
-    margin: auto 2vw;
-}
-.bloco4 a{
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.bloco5{
-    margin: auto 2vw;
-}
-.bloco5 a{
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.bloco2:hover{
-    cursor: pointer;
-}
-
-.bloco3:hover{
-    cursor: pointer;
-}
-
-.bloco4:hover{
-    cursor: pointer;
-}
 
 @keyframes expand {
 	100% {
@@ -168,56 +106,62 @@ body{
     width: 100%;
 }
 
-.logo{
-    margin: auto;
-    height: 20vh;
-    width: 20vw;
-}
 
-.logo img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    display: none;
-}
-
-.content{
+.content01{
     position: absolute;
     height: 40%;
     width: 100%;
-    margin-top: 40vh;
     display: flex;
+    margin: auto;
+    margin-top: 35vh;
 }
 
-.img_content{
+.text_content01{
     position: relative;
     height: 100%;
-    width: 15vw;
-    margin: auto;
+    width: 85%;
+    margin-left: 23vw;
+    font-size: 13px;
+    margin-right: 10vw;
+    margin-top: 5vh;
 }
-
-.text_content{
+.img_content01{
     position: relative;
-    height: 100vh;
-    width: 25vw;
-    bottom: 30vh;
-    margin-bottom: 20vh;
+    height: 110%;
+    width: 100%;
+    padding-right: 20vw;
+    background-image: linear-gradient(to bottom left, #ff073a, #016795);
+    border-top-left-radius: 200%;
+    border-bottom-left-radius: 10%;
 }
 
-.text_content h1{
+.img_content01 img{
+    transform: scale(1.5);
+}
+
+.content02{
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    display: flex;
     margin: auto;
+    margin-top: 90vh;
 }
 
-.img_content:hover{
-    cursor: pointer;
+.img_content02{
+    position: relative;
+    height: 50vh;
+    width: 20vw;
+    margin: auto;
+    background-color: #ff073a;
 }
 
-.img_content p{
-    display: none;
+mark {
+    background-color:#ff073a;
 }
 
-.img_content:hover p{
-    display: block;
+.header img svg defs style {
+    fill: red;
 }
 
 @keyframes viewer {
@@ -235,18 +179,6 @@ body{
     }
 }
 
-.img_content img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}
-
-.img_content p{
-    margin-top: 45vh;
-    text-align: center;
-    font-size: 2vh;
-}
-
 
 .navigator{
     position: absolute;
@@ -254,6 +186,7 @@ body{
     width: 100%;
     margin-top: 130vh;
     background-color: #016795;
+    margin-top: 200vh;
 }
 
 .nav_content {
@@ -320,7 +253,6 @@ content: "";
 right: 1px;
 background-color: #1b2431;
 border-radius: 60px;
-transition: background 0.4s;
 }
 .switch--shadow + label:after {
 width: 25px;
@@ -334,7 +266,7 @@ transition: all 0.4s;
 }
 .switch--shadow:checked + label:after {
     background-color: #1b2431;
-    transform: translateX(27px);
+    transform: translateX(26px);
 }
 
 ::-webkit-scrollbar {
