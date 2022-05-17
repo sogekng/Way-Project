@@ -3,7 +3,7 @@ export const lightTheme = {
     text: "#1b2431",
     toggleBorder: "#fff",
     /*headerColor: '#016795',*/
-    navigatorColor: '#016795',
+    navigatorColor: '#1e488f',
     scrollbarTrack: 'transparent',
     scrollbarThumb: '#016795',
     scrollbarThumbHover: '#FF073A',
@@ -21,7 +21,7 @@ export const lightTheme = {
     text: "#e4dcc0",
     toggleBorder: "#6B8096",
     /*headerColor: '#1e488f',*/
-    navigatorColor: '#1e488f',
+    navigatorColor: '#016795',
     scrollbarTrack: 'transparent',
     scrollbarThumb: '#1e488f',
     scrollbarThumbHover: '#FF073A',
