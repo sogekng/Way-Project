@@ -23,8 +23,8 @@ body {
 }
 
 mark {
-  color: ${({ theme }) => theme.ColorTextMark};
-  background-color: ${({ theme }) => theme.backgroundMark};
+  color: ${({ theme }) => theme.colorTextMark};
+  background-color: #ff073a;
 }
 
 ::-webkit-scrollbar-track {

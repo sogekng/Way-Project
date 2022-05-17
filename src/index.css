@@ -156,6 +156,10 @@ body{
     background-color: #ff073a;
 }
 
+mark {
+    background-color:#ff073a;
+}
+
 
 #root > header > img{
     fill: #718f1e;
