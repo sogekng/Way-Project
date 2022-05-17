@@ -27,6 +27,14 @@ mark {
   background-color: #ff073a;
 }
 
+.cls-1{
+  fill: ${({ theme }) => theme.colorFillSvg};
+}
+
+.cls-2{
+  fill:#ee2140;
+}
+
 ::-webkit-scrollbar-track {
   background: ${({ theme }) => theme.scrollbarTrack}; 
 }

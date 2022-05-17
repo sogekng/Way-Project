@@ -62,7 +62,7 @@ body{
     height: 10%;
     width: 100%;
     display: flex;
-    padding-left: 20vw;
+    padding-left: 15vw;
     margin: 0;
 }
 
@@ -79,7 +79,7 @@ body{
     font-size: 3vh;
 }
 
-.header div{
+.textMenu{
     position: relative;
     margin: auto 1vw;
 }
@@ -92,11 +92,16 @@ body{
     transform: scale(0.7);
 }
 
-
-@keyframes expand {
-	100% {
-        width: 7vw;
-	}
+.logo{
+    position: relative;
+    height: 100%;
+    
+}
+.logo svg{
+    position: relative;
+    transform: scale(0.5);
+    height: 10vh;
+    width: 30vw;
 }
 
 .container_logo{
@@ -125,6 +130,7 @@ body{
     margin-right: 10vw;
     margin-top: 5vh;
 }
+
 .img_content01{
     position: relative;
     height: 110%;
@@ -161,26 +167,6 @@ mark {
 }
 
 
-#root > header > img{
-    fill: #718f1e;
-}
-
-@keyframes viewer {
-    0% {
-    background-color: #ff073a;
-    }
-    50% {
-    background-color: #1b2431;
-    }
-    75% {
-    background-color: #016795;
-    }
-    100%{
-        background-color: #ff073a;
-    }
-}
-
-
 .navigator{
     position: absolute;
     height: 15vh;
@@ -204,15 +190,6 @@ mark {
     transform: scale(0.4);
 }
 
-@keyframes pisca{
-    0%, 100%{
-        opacity: 1;
-    }
-    50%{
-        opacity: 0;
-    }
-}
-
 
 .slider{
     position: absolute;
@@ -234,7 +211,13 @@ cursor: pointer;
 outline: none;
 user-select: none;
 }
-  
+
+
+.switch--container{
+    position: relative;
+    margin: auto 1vw;
+}
+
 .switch--shadow + label {
 padding: 2px;
 width: 50px;
