@@ -22,6 +22,11 @@ body {
   background-color: ${({ theme }) => theme.navigatorColor};
 }
 
+mark {
+  color: ${({ theme }) => theme.ColorTextMark};
+  background-color: ${({ theme }) => theme.backgroundMark};
+}
+
 ::-webkit-scrollbar-track {
   background: ${({ theme }) => theme.scrollbarTrack}; 
 }

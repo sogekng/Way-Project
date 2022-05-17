@@ -7,7 +7,7 @@ const contents = {
     text_one: <p>Em nossa agência, priorizamos o cliente ao máximo,
         trabalhando com agilidade, criativade e inteligência, para
         que seu site tenha um visual melhor do que já é!</p>,
-    text_three: <Typing speed={80}><h1><strong>Agência de web design, direcionada em melhorar <mark>ainda</mark> mais o seu site.<Typing.Speed ms={800} /></strong></h1></Typing>,
+    text_two: <Typing speed={80}><h1><strong>Agência de web design, direcionada em melhorar <mark>ainda</mark> mais o seu site.<Typing.Speed ms={800} /></strong></h1></Typing>,
     img_one: <img src='../contents/imgs/img001.png' alt='bruh'></img>,
     img_two: <img src='../contents/imgs/img002.png' alt='bruh'></img>
   }
@@ -17,7 +17,7 @@ const Content = () => {
         <>
         <div className='content01'>
             <div className='text_content01'>
-                {contents.text_three}
+                {contents.text_two}
                 {contents.text_one}
             </div>
             <div className='img_content01'>
