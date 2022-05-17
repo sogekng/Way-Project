@@ -2,7 +2,7 @@ import React, { useState, useEffect} from 'react';
 import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme } from "../theme";
 import GlobalTheme from "../globals";
-import logo from '../Logo.svg';
+import logo from '../logo.svg';
 
 const Header = () => {
     const [ theme, setTheme ] = useState('light');
