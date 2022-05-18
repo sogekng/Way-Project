@@ -9,9 +9,6 @@ body{
     font-family: 'Futura BK BT', sans-serif;
 }
 
-@media screen and (max-width: 768px){
-}
-
 .carousel{
     position: relative;
     width: 100%;
@@ -286,4 +283,103 @@ background: #1e488f;
 
 ::-webkit-scrollbar-thumb:hover {
 background: #FF073A; 
+}
+
+@media (max-width: 412px){
+    .header{
+        position: absolute;
+        height: 100%;
+        width: 50%;
+        display: none;
+        padding-left: 0vw;
+    }
+
+    .logo{
+        position: relative;
+        height: 10%;
+    }
+    .logo svg {
+        transform: scale(0.8);
+        height: 5vh;
+        width: 30vw;
+    }
+    
+    .textMenu{
+        margin: 5vw;
+        width: 50%;
+    }
+
+    .switch--container {
+        margin: 5vw;
+        width: 50%;
+    }
+
+    .content01{
+        display: block;
+        margin-top: 10vh;
+        height: 50vh;
+    }
+
+    .text_content01 {
+        position: relative;
+        text-align: center;
+        height: 50%;
+        width: 80%;
+        margin: auto;
+        font-size: 15px;
+    }
+
+    .img_content01 {
+        position: relative;
+        height: 80%;
+        width: 100%;
+        background-image: linear-gradient(to bottom left, #ff073a, #016795);
+        border-radius: 60%;
+        padding-right: 0;
+    }
+
+
+    .img_content01 img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transform: scale(0.9);
+    }
+
+    .content02 {
+        position: absolute;
+        height: 70%;
+        width: 100%;
+        display: flex;
+        margin: auto;
+        margin-top: 65vh;
+    }
+
+    .img_content02 {
+        position: relative;
+        height: 30vh;
+        width: 40vw;
+        margin: auto;
+    }
+
+    .img_content02 div h1 {
+        font-size: 3vh;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .img_content02 div p {
+        font-size: 2vh;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navigator {
+        position: absolute;
+        height: 10vh;
+        width: 100%;
+        margin-top: 140vh;
+    }
 }
