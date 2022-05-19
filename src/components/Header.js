@@ -31,12 +31,12 @@ const Header = () => {
               <div className='textMenu'><strong>SERVIÇOS</strong></div>
               <div className='textMenu'><strong>SOBRE NÓS</strong></div>
               <div className='textMenu'><strong>CONTATOS</strong></div>
-              <div>
                 <input type="checkbox" className="checkbox" id="chk" onClick={toggleTheme}/>
-                <label className="label" for="chk">
-                  <div className="ball"></div>
-                </label>
-              </div>
+                  <label className="label" for="chk">
+                    <div className="ball"></div>
+                    <span class="material-symbols-outlined" style={{color: '#e4dcc0'}}>sunny</span>
+                    <span class="material-symbols-outlined" style={{color: '#1b2431'}}>bedtime</span>
+                  </label>
             </header>
         </ThemeProvider>
       );

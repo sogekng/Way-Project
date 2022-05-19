@@ -31,6 +31,14 @@ mark {
   fill:#ee2140;
 }
 
+.label{
+  background-color: ${({ theme }) => theme.colorLabelIcon};
+}
+
+.label .ball {
+  background-color: ${({ theme }) => theme.colorLabelball};
+}
+
 ::-webkit-scrollbar-track {
   background: ${({ theme }) => theme.scrollbarTrack}; 
 }
