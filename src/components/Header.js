@@ -31,9 +31,11 @@ const Header = () => {
               <div className='textMenu'><strong>SERVIÇOS</strong></div>
               <div className='textMenu'><strong>SOBRE NÓS</strong></div>
               <div className='textMenu'><strong>CONTATOS</strong></div>
-              <div className="switch--container">
-                <input id="switch-shadow" class="switch switch--shadow" type="checkbox" onClick={toggleTheme}/>
-                <label for="switch-shadow"></label>
+              <div>
+                <input type="checkbox" className="checkbox" id="chk" onClick={toggleTheme}/>
+                <label className="label" for="chk">
+                  <div className="ball"></div>
+                </label>
               </div>
             </header>
         </ThemeProvider>
