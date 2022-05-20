@@ -449,7 +449,7 @@ input[type=text]:focus {
 
 .textInput{
     width: 50%;
-    margin: auto;
+    margin: 0px 375px;
     display: flex;
     justify-content: initial;
 }
@@ -573,7 +573,7 @@ input[type=text]:focus {
         position: absolute;
         height: 10vh;
         width: 100%;
-        margin-top: 170vh;
+        margin-top: 175vh;
     }
 
     .nav_content {
@@ -614,7 +614,7 @@ input[type=text]:focus {
 
     .content04 {
         position: absolute;
-        height: 45%;
+        height: 50%;
         width: 100%;
         background-color: #ff073a;
         margin-top: 120vh;
@@ -623,8 +623,8 @@ input[type=text]:focus {
     }
 
     .textInputTitle {
-        margin-bottom: 5vh;
-        font-size: 2vh;
+        margin-bottom: 3vh;
+        font-size: 4vh;
     }
 
     .textInput {
