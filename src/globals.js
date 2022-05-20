@@ -36,7 +36,41 @@ mark {
 }
 
 .label .ball {
+  transform: translateX(${({ theme }) => theme.varLabel});
   background-color: ${({ theme }) => theme.colorLabelball};
+}
+
+.setasEs{
+  color: ${({ theme }) => theme.setas};
+}
+
+.setasDi{
+  color: ${({ theme }) => theme.setas};
+}
+
+
+.content03{
+  background-color: ${({ theme }) => theme.ColorBdContent03};
+}
+
+.content03 h1{
+  color: ${({ theme }) => theme.colorLetras};
+}
+
+.content03 p{
+  color: ${({ theme }) => theme.colorLetras};
+}
+
+.textInputTitle{
+  color: ${({ theme }) => theme.corLetras};
+}
+
+.textInput{
+  color: ${({ theme }) => theme.corLetras};
+}
+
+.inputContent04{
+  background-color: #e4dcc0;
 }
 
 ::-webkit-scrollbar-track {

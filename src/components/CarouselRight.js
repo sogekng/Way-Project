@@ -2,7 +2,6 @@
 import React, {useState} from 'react'
 import { images } from '../Helpers/CarouselData'
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos'
-import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos'
 
 
 const Carousel = () => {
@@ -25,17 +24,17 @@ const Carousel = () => {
                         if(currImg <= 0){setCurrImg(currImg + (images.length - 1))}
                         }}
                     >
-                    <ArrowBackIosIcon />
+                    <ArrowBackIosIcon className='setasEs' />
                 </div>
                 <div className='center'>
                 </div>
                 <div className='right'
                     onClick={() => {
                         currImg < images.length - 1 && setCurrImg(currImg + 1);
-                        if(currImg >= 3){setCurrImg(currImg - currImg)}
+                        if(currImg >= 2){setCurrImg(currImg - currImg)}
                         }}
                     >
-                    <ArrowForwardIosIcon />
+                    <ArrowBackIosIcon className='setasDi' />
                 </div>
             </div>
             <div><h1>Design</h1><p>{vari}</p></div>

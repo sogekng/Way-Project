@@ -15,7 +15,12 @@ export const lightTheme = {
     switchShadowCheckedLabelBefore: '#1b2431',
     switchShadowCheckedLabelAfter: '#e4dcc0',
     colorLabelIcon: '#1b2431',
-    colorLabelball: '#e4dcc0'
+    colorLabelball: '#e4dcc0',
+    varLabel: '27px',
+    setas: '#1b2431',
+    ColorBdContent03: '#1b2431',
+    colorLetras: '#e4dcc0',
+    corLetras: '#1b2431'
 };
   
   export const darkTheme = {
@@ -35,5 +40,10 @@ export const lightTheme = {
     switchShadowCheckedLabelBefore: '#e4dcc0',
     switchShadowCheckedLabelAfter: '#1b2431',
     colorLabelIcon: '#e4dcc0',
-    colorLabelball: '#1b2431'
+    colorLabelball: '#1b2431',
+    varLabel: '0px',
+    setas: '#e4dcc0',
+    ColorBdContent03: '#e4dcc0',
+    colorLetras: '#1b2431',
+    corLetras: '#e4dcc0'
 };

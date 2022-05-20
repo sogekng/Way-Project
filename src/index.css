@@ -30,7 +30,16 @@ body{
     height: 100%;
     display: grid;
     place-items: center;
-    opacity: 0%;
+}
+
+.setasEs{
+    transform: scale();
+    cursor: pointer;
+}
+
+.setasDi{
+    transform: scale(-1);
+    cursor: pointer;
 }
 
 .carouselInner .center{
@@ -43,16 +52,6 @@ body{
     height: 100%;
     display: grid;
     place-items: center;
-    opacity: 0%;
-}
-
-
-.left:hover{
-    opacity: 100%;
-}
-
-.right:hover{
-    opacity: 100%;
 }
 
 .header{
@@ -120,28 +119,48 @@ body{
     margin-top: 35vh;
 }
 
-.text_content01{
-    position: relative;
+.content01 .teste{
+    width: 100%;
     height: 100%;
-    width: 85%;
-    margin-left: 23vw;
-    font-size: 13px;
+    background-image: linear-gradient(45deg, #ff073a, #016795);
+    display: flex;
+    background-size: 300% 300%;
+    animation: colors 10s ease infinite;
+}
+
+@keyframes colors{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.text_content01 {
+    position: relative;
+    height: 80%;
+    width: 90%;
+    margin-left: 15vw;
+    font-size: 17px;
     margin-right: 10vw;
     margin-top: 5vh;
 }
 
 .img_content01{
     position: relative;
-    height: 110%;
+    height: 100%;
     width: 100%;
-    padding-right: 20vw;
-    background-image: linear-gradient(to bottom left, #ff073a, #016795);
+    padding-right: 10vw;
     border-top-left-radius: 200%;
     border-bottom-left-radius: 10%;
 }
 
 .img_content01 img{
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 .content02{
@@ -188,7 +207,7 @@ mark {
     position: absolute;
     height: 15vh;
     width: 100%;
-    margin-top: 200vh;
+    margin-top: 340vh;
 }
 
 .nav_content {
@@ -197,12 +216,12 @@ mark {
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    padding: 5vh;
 }
 
 .nav_content svg{
     position: relative;
     height: 30px;
+    margin: auto 5vh;
 }
 
 
@@ -236,13 +255,8 @@ mark {
 	position: absolute;
 	height: 17px;
 	width: 17px;
-	transform: translateX(0px);
 	transition: transform 0.2s linear;
     z-index: 1;
-}
-
-.checkbox:checked + .label .ball {
-    transform: translateX(25px);
 }
 
 .material-symbols-outlined {
@@ -340,6 +354,94 @@ background: #FF073A;
     width: 100%;
     height: 50px;
     background-color: #ff073a;
+}
+
+
+.btn-primary {
+    --cui-btn-bg: #321fdb;
+    --cui-btn-color: #e4dcc0;
+}
+
+.btn {
+    background-color: var(--cui-btn-bg,transparent);
+    border: 1px solid var(--cui-btn-border-color,transparent);
+    border-radius: 0.25rem;
+    color: var(--cui-btn-color,rgba(44,56,74,.95));
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 0%;
+    margin: auto;
+    left: 15%;
+}
+
+.text_content01 input{
+    display: none;
+}
+
+.content03{
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background-color: #e4dcc0;
+    margin-top: 175vh;
+    text-align: center;
+    padding: 5vh;
+}
+
+.content03 h1{
+    color: #1b2431;
+    font-size: 9vh;
+}
+
+.content03 p{
+    color: #1b2431;
+    margin-top: 4vh;
+    font-size: 4vh;
+}
+
+.content04{
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    background-color: #ff073a;
+    margin-top: 240vh;
+    text-align: center;
+    padding: 5vh;
+}
+
+.inputContent04{
+    background-color: #e4dcc0;
+    border: none;
+    outline: none;
+    margin-bottom: 2vh;
+}
+
+input[type=text]:focus {
+  border: 3px solid transparent;
+}
+
+.textInputTitle{
+    margin-bottom: 5vh;
+    font-size: 10vh;
+}
+
+.textInput{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: initial;
 }
 
 @media (max-width: 412px){
