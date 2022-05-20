@@ -19,7 +19,7 @@ const Content = () => {
     return (
         <>
         <div className='content01'>
-            <div className='teste'>
+            <div className='text'>
                 <div className='text_content01'>
                     {contents.text_two}
                     <CFormCheck
@@ -53,18 +53,18 @@ const Content = () => {
             <form method="get" action="envio_dados.php">
                 <label>
                     <strong><p className='textInput'>Nome:</p></strong>
-                    <input type="text" name="name" style={{height: '25px', width: '500px'}} className='inputContent04' autocomplete="off"/>
+                    <input type="text" name="name" className='inputContent04' autocomplete="off"/>
                 </label> 
                 <label>
                     <strong><p className='textInput'>E-mail:</p></strong>
-                    <input type="text" name="name" style={{height: '25px', width: '500px'}} className='inputContent04' autocomplete="off"/>
+                    <input type="text" name="name" className='inputContent04' autocomplete="off"/>
                 </label>
                 <label>
                     <strong><p className='textInput'>Assunto:</p></strong>
-                    <input type="text" name="name" style={{height: '25px', width: '500px'}} className='inputContent04' autocomplete="off"/>
+                    <input type="text" name="name" className='inputContent04' autocomplete="off"/>
                 </label>
                 <strong><p className='textInput'>Sua mensagem:</p></strong>
-                <textarea type="textare" name="name" style={{height: '150px', width: '500px', border: '3px solid transparent'}} className='inputContent04' autocomplete="off"></textarea>
+                <textarea type="textare" name="name" className='areaContent04' autocomplete="off"></textarea>
                 <br></br>
                 <input type="submit" value="Enviar formulário!"/>
             </form>

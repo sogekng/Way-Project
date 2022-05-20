@@ -118,7 +118,7 @@ body{
     margin-top: 35vh;
 }
 
-.content01 .teste{
+.content01 .text{
     width: 100%;
     height: 100%;
     background-image: linear-gradient(45deg, #ff073a, #016795);
@@ -425,6 +425,17 @@ background: #FF073A;
     border: none;
     outline: none;
     margin-bottom: 2vh;
+    height: 25px;
+    width: 500px;
+}
+
+.areaContent04{
+    background-color: #e4dcc0;
+    border: none;
+    outline: none;
+    margin-bottom: 2vh;
+    height: 150px;
+    width: 500px;
 }
 
 input[type=text]:focus {
@@ -482,24 +493,36 @@ input[type=text]:focus {
         height: 50vh;
     }
 
+    .content01 .text{
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(45deg,#ff073a,#016795);
+        display: inline-block;
+        background-size: 300% 300%;
+    }
+
     .text_content01 {
         position: relative;
         text-align: center;
-        height: 50%;
+        height: 30%;
         width: 80%;
-        margin: auto;
-        font-size: 15px;
+        margin: 5vw auto;
+        font-size: 10px;
+        top: 45%;
     }
 
     .img_content01 {
         position: relative;
-        height: 80%;
+        height: 40%;
         width: 100%;
-        background-image: linear-gradient(to bottom left, #ff073a, #016795);
         border-radius: 60%;
         padding-right: 0;
+        bottom: 35%;
     }
 
+    .text{
+        display: inline;
+    }
 
     .img_content01 img {
         position: relative;
@@ -514,34 +537,116 @@ input[type=text]:focus {
         width: 100%;
         display: flex;
         margin: auto;
-        margin-top: 65vh;
+        margin-top: 63vh;
     }
 
     .img_content02 {
         position: relative;
-        height: 30vh;
-        width: 40vw;
-        margin: auto;
+        height: 20vh;
+        width: 35vw;
+        margin: 7.5vw;
     }
 
     .img_content02 div h1 {
-        font-size: 3vh;
+        font-size: 1.5vh;
         height: 100%;
         width: 100%;
         text-align: center;
     }
     
     .img_content02 div p {
-        font-size: 2vh;
+        font-size: 1vh;
         height: 100%;
         width: 100%;
         text-align: center;
+    }
+
+    .carouselInner .right {
+        transform: scale(0.5);
+    }
+
+    .carouselInner .left {
+        transform: scale(0.5);
     }
 
     .navigator {
         position: absolute;
         height: 10vh;
         width: 100%;
-        margin-top: 140vh;
+        margin-top: 170vh;
+    }
+
+    .nav_content {
+        transform: scale(1);
+    }
+
+    .nav_content svg {
+        margin: auto 2vh;
+    }
+
+    .btn {
+        top: 100%;
+        height: 20%;
+        font-size: 1vh;
+        left: 30%;
+    }
+
+    .content03 {
+        position: absolute;
+        height: 20%;
+        width: 100%;
+        background-color: #e4dcc0;
+        margin-top: 95vh;
+        text-align: center;
+        padding: 2vh;
+    }
+
+    .content03 h1 {
+        color: #1b2431;
+        font-size: 2vh;
+    }
+
+    .content03 p {
+        color: #1b2431;
+        margin-top: 2vh;
+        font-size: 1.5vh;
+    }
+
+    .content04 {
+        position: absolute;
+        height: 45%;
+        width: 100%;
+        background-color: #ff073a;
+        margin-top: 120vh;
+        text-align: center;
+        padding: 2vh;
+    }
+
+    .textInputTitle {
+        margin-bottom: 5vh;
+        font-size: 2vh;
+    }
+
+    .textInput {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: initial;
+    }
+    .inputContent04 {
+        background-color: #e4dcc0;
+        border: none;
+        outline: none;
+        margin-bottom: 2vh;
+        height: 15px;
+        width: 230px;
+    }
+    .areaContent04{
+        background-color: #e4dcc0;
+        border: none;
+        outline: none;
+        margin-bottom: 2vh;
+        height: 60px;
+        width: 230px;
     }
 }
