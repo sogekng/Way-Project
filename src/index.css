@@ -448,8 +448,8 @@ input[type=text]:focus {
 }
 
 .textInput{
-    width: 50%;
-    margin: 0px 375px;
+    width: 40%;
+    margin: 0 auto;
     display: flex;
     justify-content: initial;
 }
@@ -629,7 +629,7 @@ input[type=text]:focus {
 
     .textInput {
         width: 70%;
-        margin: auto;
+        margin: 0 auto;
         display: flex;
         justify-content: initial;
     }
