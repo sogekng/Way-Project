@@ -619,7 +619,7 @@ input[type=text]:focus {
         background-color: #ff073a;
         margin-top: 120vh;
         text-align: center;
-        padding: 2vh;
+        padding: 5vh;
     }
 
     .textInputTitle {
@@ -628,7 +628,7 @@ input[type=text]:focus {
     }
 
     .textInput {
-        width: 100%;
+        width: 60%;
         margin: auto;
         display: flex;
         justify-content: initial;
