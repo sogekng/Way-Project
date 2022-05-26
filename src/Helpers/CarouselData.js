@@ -8,8 +8,14 @@ const Photo1 = '#016795'
 const Photo2 = '#1e488f'
 const Photo3 = '#ff073a'
 
-export const images = [
-    {img: Photo1},
+export const images1 = [
+    {img: Photo1, descricao: 'Criação de Sites Responsivos e Mobile'},
+    {img: Photo2},
+    {img: Photo3}
+];
+
+export const images2 = [
+    {img: Photo1, descricao: '...'},
     {img: Photo2},
     {img: Photo3}
 ];
