@@ -674,7 +674,7 @@ input[type=text]:focus {
     }
 
     .textInput {
-        width: 70%;
+        width: 100%;
         margin: 0 auto;
         display: flex;
         justify-content: initial;
@@ -694,5 +694,11 @@ input[type=text]:focus {
         margin-bottom: 2vh;
         height: 60px;
         width: 230px;
+    }
+
+    .content04 form {
+        height: 100%;
+        width: 72%;
+        margin: auto;
     }
 }
