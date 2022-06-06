@@ -264,7 +264,6 @@ mark {
 	position: absolute;
 	height: 17px;
 	width: 17px;
-	transition: transform 0.2s linear;
     z-index: 1;
 }
 
