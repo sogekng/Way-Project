@@ -451,13 +451,19 @@ input[type=text]:focus {
   border: 3px solid transparent;
 }
 
+.content04 form{
+    height: 100%;
+    width: 40%;
+    margin: auto;
+}
+
 .textInputTitle{
     margin-bottom: 5vh;
     font-size: 10vh;
 }
 
 .textInput{
-    width: 40%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: initial;

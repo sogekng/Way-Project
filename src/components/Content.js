@@ -50,7 +50,7 @@ const Content = () => {
         </div>
         <div className='content04'>
             <strong><h1 className='textInputTitle'>FALE CONOSCO</h1></strong>
-            <form method="get" action="envio_dados.php">
+            <form method="get" action="envio_dados.php" className='form'>
                 <label>
                     <strong><p className='textInput'>Nome:</p></strong>
                     <input type="text" name="name" className='inputContent04' autocomplete="off"/>
