@@ -10,12 +10,12 @@ const Photo3 = '#ff073a'
 
 export const images1 = [
     {img: Photo1, descricao: 'Criação de Sites Responsivos e Mobile'},
-    {img: Photo2},
-    {img: Photo3}
+    {img: Photo2, descricao: 'Lorem Lorem Lorem'},
+    {img: Photo3, descricao: 'Epsum Epsum Epsum'}
 ];
 
 export const images2 = [
-    {img: Photo1, descricao: '...'},
-    {img: Photo2},
-    {img: Photo3}
+    {img: Photo1, descricao: 'Design de sites e variados'},
+    {img: Photo2, descricao: 'Segundo Lorem Segundo Lorem Segundo Lorem'},
+    {img: Photo3, descricao: 'Segundo Epsum Segundo Epsum Segundo Epsum'}
 ];
