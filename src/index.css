@@ -62,11 +62,20 @@ body{
 }
 
 .header{
-    position: absolute;
+    position: fixed;
     height: 10%;
     width: 100%;
     display: flex;
     margin: 0;
+    z-index: 5;
+}
+
+.backg{
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    display: block;
+    z-index: 4;
 }
 
 .header img{

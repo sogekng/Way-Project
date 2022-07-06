@@ -10,8 +10,12 @@ body {
   color: ${({ theme }) => theme.text};
 }
 
-.header{
+.backg{
   background-color: ${({ theme }) => theme.headerColor};
+}
+
+.textMenu{
+  color: ${({ theme }) => theme.textMenuHeader};
 }
 
 .navigator{
@@ -47,7 +51,6 @@ mark {
 .setasDi{
   color: ${({ theme }) => theme.setas};
 }
-
 
 .content03{
   background-color: ${({ theme }) => theme.ColorBdContent03};
